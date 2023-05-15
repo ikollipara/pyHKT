@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyhkt"
+version = "0.0.1"
+description = "Emulating Higher Kinded Types in Python"
+authors = ["Ian Kollipara <ian.kollipara@gmail.com>"]
+license = "BSD 2-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
